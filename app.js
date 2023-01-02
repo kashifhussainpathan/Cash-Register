@@ -15,11 +15,16 @@ checkBtn.addEventListener("click", function validatebillandcashamount() {
 
         } else {
             message.style.display = "block";
-            message.innerText = "cash amount should be greater than bill"
+            message.innerText = "Cash amount should be greater than bill";
+            for (let i = 0; i < notes.length; i++) {
+                const newReturnAmount =0;
+                noOfNotes[i].innerText = newReturnAmount;
+            }
         }
     } else {
         message.style.display = "block";
-        message.innerText = "please enter amount greater than zero";
+        message.innerText = "Please enter amount greater than zero";
+        
     }
 });
 
@@ -32,3 +37,6 @@ function calculateChange(amountToBeReturned) {
     }
 
 };
+
+
+ 
