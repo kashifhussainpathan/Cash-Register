@@ -1,4 +1,4 @@
-# Build-cash-register-manager
+**Build-cash-register-manager**
 A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes.
 
 How to use:
@@ -7,9 +7,9 @@ How to use:
 3.Output will be shown below the check button
 
 Programming Language:
-1.html
-2.css
-3.javascript
+1. html
+2. css
+3. javascript
 
 
-Don't forget to leave a ⭐ if you found this useful.
+_Don't forget to leave a ⭐ if you found this useful._
